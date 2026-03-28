@@ -40,7 +40,7 @@ public class MainMenu {
                     System.out.println("Exiting...");
                     System.exit(0);
                 default:
-                    System.out.println("⚠ Invalid choice! Try again.");
+                    System.out.println(" Invalid choice! Try again.");
                     break;
                 case 1:
                     studentService.addStudent();
